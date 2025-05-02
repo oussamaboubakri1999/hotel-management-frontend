@@ -1,0 +1,223 @@
+/* Style général */
+.equipement-form {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titre */
+  .equipement-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Champs de formulaire */
+  .equipement-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .equipement-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Boutons du formulaire */
+  .equipement-form button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .equipement-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .equipement-form button:last-child {
+    background-color: #6c757d;
+  }
+  
+  .equipement-form button:last-child:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Liste des équipements */
+  .equipement-list {
+    margin-top: 30px;
+  }
+  
+  .equipement-list h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .equipement-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .equipement-list li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .equipement-list li p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .equipement-list li button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .equipement-list li button:hover {
+    background-color: #c82333;
+  }
+  
+  .equipement-list li button:last-child {
+    background-color: #28a745;
+  }
+  
+  .equipement-list li button:last-child:hover {
+    background-color: #218838;
+  }
+  
+  /* Message d'erreur */
+  .error-message {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Toast notifications */
+  .Toastify__toast-container {
+    font-size: 14px;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #28a745;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #dc3545;
+  }
+  
+  .Toastify__toast--warning {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  .Toastify__toast--info {
+    background-color: #17a2b8;
+  }
+  /* Conteneur du filtre */
+.filter-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Titre du filtre */
+.filter-container h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* Champ de saisie du filtre */
+.filter-container input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Effet au focus du champ de saisie */
+.filter-container input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style pour la liste filtrée */
+.equipement-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.equipement-list li {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.equipement-list li p {
+  margin: 0;
+  color: #333;
+}
+
+.equipement-list li button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.equipement-list li button:hover {
+  background-color: #c82333;
+}
+
+.equipement-list li button:last-child {
+  background-color: #28a745;
+}
+
+.equipement-list li button:last-child:hover {
+  background-color: #218838;
+}

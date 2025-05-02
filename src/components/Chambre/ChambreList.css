@@ -1,0 +1,274 @@
+/* Style général */
+.chambre-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre */
+.chambre-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Formulaire */
+.chambre-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.chambre-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.chambre-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.chambre-form button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.chambre-form button:hover {
+  background-color: #0056b3;
+}
+
+.chambre-form button:last-child {
+  background-color: #6c757d;
+}
+
+.chambre-form button:last-child:hover {
+  background-color: #5a6268;
+}
+
+/* Liste des chambres */
+.chambre-list {
+  margin-top: 30px;
+}
+
+.chambre-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chambre-list li {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chambre-list li p {
+  margin: 0;
+  color: #333;
+}
+
+.chambre-list li button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+}
+
+.chambre-list li button:hover {
+  background-color: #c82333;
+}
+
+.chambre-list li button:last-child {
+  background-color: #28a745;
+}
+
+.chambre-list li button:last-child:hover {
+  background-color: #218838;
+}
+
+/* Notifications */
+.Toastify__toast-container {
+  font-size: 14px;
+}
+
+.Toastify__toast--success {
+  background-color: #28a745;
+}
+
+.Toastify__toast--error {
+  background-color: #dc3545;
+}
+
+.Toastify__toast--warning {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.Toastify__toast--info {
+  background-color: #17a2b8;
+}
+/* Style général pour le select */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fff;
+  appearance: none; /* Supprime le style par défaut du navigateur */
+  -webkit-appearance: none; /* Pour les navigateurs WebKit (Chrome, Safari) */
+  -moz-appearance: none; /* Pour Firefox */
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Style au survol */
+select:hover {
+  border-color: #007bff;
+}
+
+/* Style au focus */
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style pour la flèche du select */
+.select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.select-wrapper::after {
+  content: '▼';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; /* Empêche la flèche de bloquer les clics */
+  color: #666;
+  font-size: 12px;
+}
+
+/* Style pour les options */
+select option {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style pour les options au survol */
+select option:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+/* Conteneur du filtre */
+.filter-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Titre du filtre */
+.filter-container h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* Champ de saisie du filtre */
+.filter-container input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Effet au focus du champ de saisie */
+.filter-container input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style pour la liste filtrée */
+.chambre-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chambre-list li {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chambre-list li p {
+  margin: 0;
+  color: #333;
+}
+
+.chambre-list li button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.chambre-list li button:hover {
+  background-color: #c82333;
+}
+
+.chambre-list li button:last-child {
+  background-color: #28a745;
+}
+
+.chambre-list li button:last-child:hover {
+  background-color: #218838;
+}
